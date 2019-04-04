@@ -12,5 +12,4 @@ install:
 script:
   - pytest src/test_*.py
   - pycodestyle src/*py --ignore=E501
-
-repo_token: PpwGl6PnDemh61jjfPVLAFqxYHJWhcB6f
+  - pytest-cov
